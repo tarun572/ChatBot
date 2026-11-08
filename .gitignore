@@ -1,0 +1,10 @@
+node_modules
+server/node_modules
+client/node_modules
+tts-service/.venv
+.env
+.env.*
+!.env.example
+.DS_Store
+coverage
+*.log

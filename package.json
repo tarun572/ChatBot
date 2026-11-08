@@ -1,0 +1,15 @@
+{
+  "name": "versevoice-monorepo",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client",
+    "tts-service"
+  ],
+  "scripts": {
+    "dev": "npm --workspace server run dev",
+    "start": "npm --workspace server run start",
+    "test": "npm --workspace server run test",
+    "typecheck": "npm --workspace server run typecheck"
+  }
+}
